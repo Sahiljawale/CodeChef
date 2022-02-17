@@ -1,6 +1,4 @@
-# Practice-Problems
+<div align="center">
+<h1>Practice-Problems</h1>
 
-This are the problems which I solve on various coding platforms like 
- -codechef,
- -hackerrank,
- -leetcode etc.
+Problems  which I solved/practice on CodeChef
