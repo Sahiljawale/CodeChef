@@ -20,6 +20,19 @@ Problems  which I solved/practice on CodeChef
 |8.     | [Palindromes Not Allowed](https://github.com/Ansh-Sarkar/CodeChef/blob/main/C%2B%2B/Palindromes%20Not%20Allowed%20.cpp) |
 |9.     | [Sum of Array](https://github.com/Ansh-Sarkar/CodeChef/blob/main/C%2B%2B/sumofarray.cpp) |
 |10.    | [Zero Factorial](https://github.com/Ansh-Sarkar/CodeChef/blob/main/C%2B%2B/Zero%20Factorial.cpp) |
+|11.    | [Balls And Boxes](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Balls_and_Boxes.cpp) |
+|12.    | [Car Choice](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Car_choice.cpp) |
+|13.    | [Chef and Snackdown](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Chef_and_Snackdown.cpp) |
+|14.    | [Chess Format](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Chess_Format.cpp) |
+|15.    | [Count The Holidays](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Count_the_holidays.cpp) |
+|16.    | [Find The Direction](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Find_the_direction.cpp) |
+|17.    | [Gold Mining](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Gold_mining.cpp) |
+|18.    | [Odds And Evens](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Odds_and_Evens.cpp) |
+|19.    | [Olympics Ranking](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Olympics_ranking.cpp) |
+|20.    | [Penalty Shots](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Penalty_shots.cpp) |
+|21.    | [Save Water Save Life](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Save_water_save_life.cpp) |
+|22.    | [The Old Saint And Three Questions](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/The_old_saint_and_three_questions.cpp) |
+|23.    | [Vaccine Dates](https://github.com/Soumyajit2825/CodeChef/blob/main/C%2B%2B/Vaccine_dates.cpp) |
 
 <br>
 
