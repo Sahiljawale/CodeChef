@@ -2,7 +2,7 @@
 <h1>Practice-Problems</h1>
 </div>
 
-Problems  which I solved/practice on CodeChef
+### This repository contains solutions for problems on codechef.com
 
 <br>
 
