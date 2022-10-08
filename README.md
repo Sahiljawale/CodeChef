@@ -34,8 +34,7 @@
 |22.    | [The Old Saint And Three Questions](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/The_old_saint_and_three_questions.cpp) |
 |23.    | [Vaccine Dates](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Vaccine_dates.cpp) |
 |24.    | [Maximum Subarray](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Maximum_Subarray.cpp) |
-
-
+|25.    | [Balanced 0-1 Tree](https://www.codechef.com/submit/B01T)|
 <br>
 
 ## Python
