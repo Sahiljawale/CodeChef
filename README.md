@@ -33,6 +33,8 @@
 |21.    | [Save Water Save Life](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Save_water_save_life.cpp) |
 |22.    | [The Old Saint And Three Questions](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/The_old_saint_and_three_questions.cpp) |
 |23.    | [Vaccine Dates](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Vaccine_dates.cpp) |
+|24.    | [Maximum Subarray](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Maximum_Subarray.cpp) |
+
 
 <br>
 
