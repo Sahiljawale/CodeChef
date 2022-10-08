@@ -74,3 +74,14 @@
 |30.    | [Turbo Sort](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Turbo%20Sort.py) |
 |31.    | [World Chess Championship](https://github.com/Sahiljawale/CodeChef/blob/main/Python/World%20Chess%20Championsh.py) |
 |32.    | [XOR Palindrome](https://github.com/Sahiljawale/CodeChef/blob/main/Python/XOR%20Palindrome.py) |
+
+## Java
+
+| S.No. | Problem |
+|:------|:--------|
+|1.     | [Demo]([https://github.com/Sahiljawale/CodeChef/blob/main/Python/ATM.py](https://github.com/Sahiljawale/CodeChef/blob/main/Java/demo.java)) |
+|2.     | 
+
+
+
+<br>
