@@ -1,0 +1,140 @@
+   //Implementing stack (from scrach)using Arraylist
+    static class Stack{
+          static ArrayList<Integer> s=new ArrayList<>();
+
+         public static boolean isEmpty(){
+            return s.size()==0;
+        }
+           public static void push(int data){
+                s.add(data);
+            }
+            static int pop(){
+                if(s.isEmpty()){
+                    return -1;
+                }
+                int top=s.get(s.size()-1);
+                s.remove(s.size()-1);
+                return top;
+            }
+            public int peek(){
+                if(s.isEmpty()){
+                    return -1;
+                }
+                return s.get(s.size()-1);
+            }
+           
+    }
+    
+    //Implenenting stack using linkedlist
+    
+    static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data=data;
+            this.next=null;
+        }
+     }
+    static class Stack{
+        static Node head=null;
+
+      public static boolean isEmpty(){
+        return head==null;
+      }
+
+      static void push(int data){
+        Node newNode=new Node(data);
+
+        if(isEmpty()){
+             head=newNode;
+             return;
+        }
+        newNode.next=head;
+        head=newNode;
+      }
+
+      static int pop(){
+        if(isEmpty()){
+            return -1;
+        }
+        int top=head.data;
+        head=head.next;
+        return top;
+      }
+
+      static int peek(){
+        if(isEmpty()){
+            return -1;
+        }
+        return head.data;
+      }
+    }
+    
+ //Dublicate parenthesis
+ public static boolean isDublicate(String str){
+         Stack<Character> s=new Stack<>();
+         for(int i=0;i<str.length();i++){
+            char ch=str.charAt(i);
+            if(ch==')'){
+                int count=0;
+                while(s.peek()!='('){
+                    s.pop();
+                    count++;
+                }
+                if(count<1){
+                    return true;
+                }else{
+                    s.pop();
+                }
+            }else{
+                s.push(ch);
+            }
+         }
+         return false;
+    }
+    //Push bottom
+    public static void pushatBottom(Stack<Integer> s ,int data){
+         
+        if(s.isEmpty()){
+            s.push(data);
+            return;
+        }
+
+        int top=s.pop();
+        pushatBottom(s, data);
+        s.push(top);
+    }
+    //reverse stack
+     public static void pushBottom(Stack<Integer> s, int data) {
+        if (s.isEmpty()) {
+            s.push(data);
+            return;
+        }
+        int top = s.pop();
+        pushBottom(s, data);
+        s.push(top);
+    }
+
+    public static void reverseStack(Stack<Integer> s) {
+        if (s.isEmpty()) {
+            return;
+        }
+        int top = s.pop();
+        reverseStack(s);
+        pushBottom(s, top);
+    }
+    //reverse string using stack
+    public static String reverseString(String str){
+        Stack<Character> s=new Stack<>();
+        int idx=0;
+        while(idx<str.length()){
+            s.push(str.charAt(idx));
+            idx++;
+        }
+        StringBuilder ans=new StringBuilder(" ");
+        while(!s.isEmpty()){
+            char curr=s.pop();
+            ans.append(curr);
+        }
+        return ans.toString();
+    }
