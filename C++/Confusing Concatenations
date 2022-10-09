@@ -1,0 +1,70 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+#define int long long int
+#define ld long double
+#define pb push_back
+#define sp(x,y)  fixed<<setprecision(y)<<x;
+#define inf 9223372036854775807
+#define all(x) begin(x), end(x)
+#define el "\n"
+#define vi vector<int>
+#define vvi vector<vector<int>>
+#define vpi vector<pair<int,int>>
+#define vvpi vector<vector<pair<int,int>>>
+#define inf 9223372036854775807
+const int mod = 998244353;
+const int MAX = 5e5+5;
+
+int32_t main() {
+ios::sync_with_stdio(0);cout.tie(0);cin.tie(0);
+    int t=1;
+    cin>>t;
+    while(t--){
+     int n;
+     cin>>n;
+  vector<int>v(n);
+  int mx=-1e8,mxind=-1;
+  for(int i=0;i<n;i++)
+  {
+    cin>>v[i];
+    if(mx<v[i])
+    {
+        mx=v[i];
+        mxind=i;
+    }
+
+}
+  vector<int>x,y;
+
+  map<int,int>mpx,mpy;
+for(int i=0;i<mxind;i++){
+        x.pb(v[i]);
+        mpx[v[i]]++;
+    }
+    for(int i=mxind;i<n;i++)
+    {
+        y.pb(v[i]);
+        mpy[v[i]]++;
+    }
+
+int flag=0;
+
+  if(x.size()==0 or y.size()==0 or flag)
+    cout<<-1<<el;
+else
+{
+   
+     cout<<x.size()<<el;
+    for(auto it:x)
+        cout<<it<<" ";
+    cout<<el;
+    cout<<y.size()<<el;
+    for(auto it:y)
+        cout<<it<<" ";
+    cout<<el;
+}
+}
+
+    return 0;
+}
