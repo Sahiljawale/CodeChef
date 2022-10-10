@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+#define int long long
+int m,a[100001],s1,s2,s;
+void solve(){
+    cin>>m;
+    s1=0;s2=0,s=0;
+    for(int i=1;i<=m;++i){
+        cin>>a[i];
+        s1+=a[i]==0;
+        s2+=a[i]==1;}
+        
+        for(int i=1;i<=m;++i){
+            if(i==1) s+=(a[1]==a[m]);
+            else s+=(a[i]==a[i-1]);
+        }
+    
+    s-=abs(s1-s2);
+    cout<<(s%4 ==0?"Bob":"Alice")<<endl;
+}
+
+signed main() {
+	// your code goes here
+	int p;
+	cin>>p;
+	while(p--) solve();
+	return 0;
+}
