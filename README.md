@@ -41,9 +41,9 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 
 | S.No. | Question | Solution | 
 |:------|:--------| :--------|
-|1.     | codechef URL |[ATM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/ATM.py) |
-|2.     | codechef URL |[Avoid Fix Point](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Avoid%20Fix%20Point.py) |
-|3.     | codechef URL |[Car or Bus](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Car%20or%20Bus.py) |
+|1.     | [HS08TEST](https://www.codechef.com/problems/HS08TEST) |[ATM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/ATM.py) |
+|2.     | [NOFIX](https://www.codechef.com/FEB222C/problems/NOFIX) |[Avoid Fix Point](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Avoid%20Fix%20Point.py) |
+|3.     | [TRAVELFAST](https://www.codechef.com/problems/TRAVELFAST) | [Car or Bus](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Car%20or%20Bus.py) |
 |4.     | codechef URL |[Careless Chef](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Careless%20Chef.py) |
 |5.     | codechef URL |[Cats and a Mouse](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Cats%20and%20a%20Mouse.py) |
 |6.     | codechef URL |[Chef and NextGen](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Chef%20and%20NextGen.py) |
