@@ -3,7 +3,7 @@
 </div>
 
 ### This repository contains solutions for problems on codechef.com
-
+Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 <br>
 
 ## C++
