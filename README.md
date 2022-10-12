@@ -49,7 +49,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |6.     | [HELIUM3](https://www.codechef.com/problems/HELIUM3) |[Chef and NextGen](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Chef%20and%20NextGen.py) |
 |7.     | [CIELAB](https://www.codechef.com/problems/CIELAB) |[Ciel and A-B Problem](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Ciel%20and%20A-B%20Problem.py) |
 |8.     | [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) |[Compare the Triplets](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Compare%20the%20Triplets.py) |
-|9.     | codechef URL |[Count the Notebook](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Count%20The%20Notebook.py) |
+|9.     | [NOTEBOOK](https://www.codechef.com/submit/NOTEBOOK) |[Count the Notebook](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Count%20The%20Notebook.py) |
 |10.    | codechef URL |[Daanish and Problems](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Daanish%20and%20Problems.py) |
 |11.    | codechef URL |[Day of the Programmer](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Day%20of%20the%20Programmer.py) |
 |12.    | codechef URL |[Diagonal Difference](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Diagonal%20Difference.py) |
