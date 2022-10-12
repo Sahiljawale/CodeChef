@@ -44,10 +44,10 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |1.     | [HS08TEST](https://www.codechef.com/problems/HS08TEST) |[ATM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/ATM.py) |
 |2.     | [NOFIX](https://www.codechef.com/FEB222C/problems/NOFIX) |[Avoid Fix Point](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Avoid%20Fix%20Point.py) |
 |3.     | [TRAVELFAST](https://www.codechef.com/problems/TRAVELFAST) | [Car or Bus](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Car%20or%20Bus.py) |
-|4.     | codechef URL |[Careless Chef](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Careless%20Chef.py) |
+|4.     | [LOSTSEQ](https://www.codechef.com/START26B/problems/LOSTSEQ) |[Careless Chef](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Careless%20Chef.py) |
 |5.     | codechef URL |[Cats and a Mouse](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Cats%20and%20a%20Mouse.py) |
-|6.     | codechef URL |[Chef and NextGen](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Chef%20and%20NextGen.py) |
-|7.     | codechef URL |[Ciel and A-B Problem](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Ciel%20and%20A-B%20Problem.py) |
+|6.     | [HELIUM3](https://www.codechef.com/problems/HELIUM3) |[Chef and NextGen](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Chef%20and%20NextGen.py) |
+|7.     | [CIELAB](https://www.codechef.com/problems/CIELAB) |[Ciel and A-B Problem](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Ciel%20and%20A-B%20Problem.py) |
 |8.     | [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) |[Compare the Triplets](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Compare%20the%20Triplets.py) |
 |9.     | codechef URL |[Count the Notebook](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Count%20The%20Notebook.py) |
 |10.    | codechef URL |[Daanish and Problems](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Daanish%20and%20Problems.py) |
