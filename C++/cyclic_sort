@@ -1,0 +1,43 @@
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+  
+
+   
+ void Cyclic_sort(int arr[],int n) {
+        
+        int i=1;
+        
+        while(i<n){
+            
+           
+            int correct_position = arr[i]-1;
+            
+
+            if(arr[i]!=arr[correct_position]){
+
+                 swap(arr[i], arr[correct_position]);
+                
+            }
+            
+            else{
+                i++;
+            }
+            
+        }
+  
+  }
+
+
+int main()
+{
+    int arr[] = {1 , 3 , 2 , 4 , 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+ 
+    Cyclic_sort(arr,n);
+ 
+    cout << "Sorted array is \n";
+	for (int i = 0; i < n; i++)
+		cout << arr[i] << " ";
+}
