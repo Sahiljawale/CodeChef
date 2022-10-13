@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long int lg;
+void check()
+{
+    lg A,B,C,X,Y,Z;
+    cin>>A>>B>>C>>X>>Y>>Z;
+    lg dif= max({X-A,Y-B,Z-C});
+    if(dif + A + B + C >(X+Y+Z)/2)
+    cout<<"YES\n";
+    else
+    cout<<"NO\n";
+}
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	lg solve;
+	for(cin >> solve;solve--;)
+	    check();
+}
