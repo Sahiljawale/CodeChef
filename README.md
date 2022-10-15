@@ -35,6 +35,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |23.    | [VDATES](https://www.codechef.com/problems/VDATES) |[Vaccine Dates](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Vaccine_dates.cpp) |
 |24.    | [CDBSTR06](https://www.codechef.com/problems/CDBSTR06) |[Maximum Subarray](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Maximum_Subarray.cpp) |
 |25.    | [B01T](https://www.codechef.com/problems/B01T) |[Balanced 0-1 Tree](https://github.com/Kdeveloper2000/CodeChef/blob/Graph/CC/C%2B%2B/Balanced1Tree.cpp)|
+|26.    | [CHFINVNT](https://www.codechef.com/AUG21C/problems/CHFINVNT) | [Chef And Bulb Invention](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/chef_and_bulb_invention.cpp)
 <br>
 
 ## Python
