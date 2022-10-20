@@ -53,7 +53,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |9.     | [NOTEBOOK](https://www.codechef.com/submit/NOTEBOOK) |[Count the Notebook](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Count%20The%20Notebook.py) |
 |10.    | codechef URL |[Daanish and Problems](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Daanish%20and%20Problems.py) |
 |11.    | codechef URL |[Day of the Programmer](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Day%20of%20the%20Programmer.py) |
-|12.    | codechef URL |[Diagonal Difference](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Diagonal%20Difference.py) |
+|12.    | [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) |[Diagonal Difference](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Diagonal%20Difference.py) |
 |13.    | codechef URL |[Enormous Input Test](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Enormous%20Input%20Test.py) |
 |14.    | codechef URL |[GCD and LCM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/GCD%20and%20LCM.py) |
 |15.    | codechef URL |[Gross Salary](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Gross%20Salary.py) |
