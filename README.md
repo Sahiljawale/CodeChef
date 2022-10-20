@@ -55,7 +55,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |11.    | codechef URL |[Day of the Programmer](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Day%20of%20the%20Programmer.py) |
 |12.    | codechef URL |[Diagonal Difference](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Diagonal%20Difference.py) |
 |13.    | codechef URL |[Enormous Input Test](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Enormous%20Input%20Test.py) |
-|14.    | codechef URL |[GCD and LCM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/GCD%20and%20LCM.py) |
+|14.    | [GCD and LCM](https://www.codechef.com/problems/FLOW016) |[GCD and LCM](https://github.com/Sahiljawale/CodeChef/blob/main/Python/GCD%20and%20LCM.py) |
 |15.    | codechef URL |[Gross Salary](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Gross%20Salary.py) |
 |16.    | codechef URL |[Hostel Room](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Hostel%20Room.py) |
 |17.    | codechef URL |[How Many Digits](https://github.com/Sahiljawale/CodeChef/blob/main/Python/How%20Many%20Digits.py) |
