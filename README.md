@@ -19,7 +19,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |7.     | [MRGSRT](https://www.codechef.com/problems/MRGSRT) |[Merge Sort](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Mergesort.cpp) |
 |8.     | [NOPAL](https://www.codechef.com/problems/NOPAL) |[Palindromes Not Allowed](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Palindromes%20Not%20Allowed%20.cpp) |
 |9.     | [SYNSARA4](https://www.codechef.com/problems/SYNSARA4) |[Sum of Array](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/sumofarray.cpp) |
-|10.    | codechef URL |[Zero Factorial](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Zero%20Factorial.cpp) |
+|10.    | [FACTZERO](https://www.codechef.com/problems/FACTZEROhttps://www.codechef.com/problems/FACTZERO) |[Zero Factorial](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Zero%20Factorial.cpp) |
 |11.    | [BALLBOX](https://www.codechef.com/submit/BALLBOX) |[Balls And Boxes](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Balls_and_Boxes.cpp) |
 |12.    | [CARCHOICE](https://www.codechef.com/START28C/problems/CARCHOICE/) |[Car Choice](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Car_choice.cpp) |
 |13.    | [SNCKYEAR](https://www.codechef.com/problems/SNCKYEAR) |[Chef and Snackdown](https://github.com/Sahiljawale/CodeChef/blob/main/C%2B%2B/Chef_and_Snackdown.cpp) |
