@@ -1,0 +1,158 @@
+       // sorting
+    
+    //Bubble Sort
+    public static void bubbleSort(int arr[]) {
+        for (int turn = 0; turn < arr.length; turn++) {
+            for (int j = 0; j < arr.length - 1; j++) {
+               if(arr[j]>arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+               }
+            }
+
+        }
+    }
+    
+    
+    //optimise bubble sort
+    public static void modifiedbubbleSort(int arr[]) {
+        for (int turn = 0; turn < arr.length; turn++) {
+            boolean swapped=false;
+            for (int j = 0; j < arr.length - 1; j++) {
+               if(arr[j]>arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swapped=true;
+               }
+            }
+         if(swapped==false){
+            break;
+         }
+        }
+    }
+    
+    //Insertion sort
+     // for accending order
+    public static void insertionSort(int arr[]) {
+        for (int i = 1; i < arr.length; i++) {
+            int curr = arr[i];
+            int prev = i - 1;
+            while (prev >= 0 && arr[prev] > curr) {
+                arr[prev + 1] = arr[prev];
+                prev--;
+            }
+            arr[prev + 1] = curr;
+        }
+    }
+    
+    // for decending order
+    public static void insertionSort2(int arr[]) {
+        for (int i = 1; i < arr.length; i++) {
+            int curr = arr[i];
+            int prev = i - 1;
+            while (prev >= 0 && arr[prev] < curr) {
+                arr[prev + 1] = arr[prev];
+                prev--;
+            }
+            arr[prev + 1] = curr;
+        }
+    }
+    
+    //Selection Sort
+      public static void selectionSort(int arr[]){
+         for(int i=0;i<arr.length-1;i++){
+            int currPos=i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[currPos]>arr[j]){
+                    currPos=j;
+                }
+            }
+            int temp=arr[currPos];
+            arr[currPos]=arr[i];
+            arr[i]=temp;
+         }
+    }
+    public static void printArr(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print( arr[i] +" ");
+        }
+        System.out.println();
+    }
+    
+    // Merge Sort
+    public static void mergeSort(int arr[],int s,int e){
+        if(s>=e){
+            return;
+        }
+        int mid=s+(e-s)/2;
+        mergeSort(arr, s, mid);
+        mergeSort(arr,mid+1, e);
+        merge(arr,s,mid,e);
+    }
+
+    public static void merge(int arr[],int s,int mid,int e){
+        int temp[]=new int[e-s+1];
+        int i=s;
+        int j=mid +1;
+        int k=0;
+
+        while(i<=mid && j<= e){
+            if(arr[i]<arr[j]){ 
+                temp[k]=arr[i];
+                i++;
+            }else{
+                temp[k]=arr[j];
+                j++;
+            }
+            k++;
+        }
+        while(i<=mid){
+            temp[k++]=arr[i++];
+        }
+        while(j<=e){
+            temp[k++]=arr[j++];
+        }
+
+        for(k=0,i=s;k<temp.length;k++,i++){
+            arr[i]=temp[k];
+        }
+
+    }
+    
+    //Quick Sort
+     public static void quickSort(int arr[],int s,int e){
+
+       if(s>=e){
+        return;
+       }
+
+       int Indx= partitions(arr,  s ,e); //last element
+
+        quickSort(arr, s, Indx-1); //left
+       
+        quickSort(arr, Indx+1, e); //right
+
+    }
+
+    public static int partitions(int arr[],int s,int e){
+        int pivot=arr[e];
+        int i=s-1;
+
+        for(int j=s;j<e;j++){
+            if(arr[j]<=pivot){
+             i++;
+             //swap
+             int temp=arr[j];
+             arr[j]=arr[i];
+             arr[i]=temp;
+            }
+        }
+        i++;
+        int temp=pivot;
+        arr[e]=arr[i];
+        arr[i]=temp;
+        return i;
+
+    }
