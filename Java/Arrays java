@@ -1,0 +1,182 @@
+//Binary Search Algorithm
+ public static int binarySearch(int number[], int key) {
+        int start = 0;
+        int end = number.length - 1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            if (number[mid] == key) {
+                return mid;
+            }
+            if (number[mid] < key) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return -1;
+    }
+    
+    //Largest element in array
+    
+    public static int getlargest(int number[]){
+        int largest=Integer.MAX_VALUE;
+        for(int i=0;i<number.length;i++){
+            if(largest > number[i]){
+                largest=number[i];
+            }
+        }
+        return largest;
+    }
+  //Smallest element in array
+    public static int getsmallest(int number[]){
+        int smallest=Integer.MIN_VALUE;
+        for(int i=0;i<number.length;i++){
+            if(smallest < number[i]){
+                smallest=number[i];
+            }
+        }
+        return smallest;
+    }
+    //Kadanes Algorithm
+      public static int kadanes(int arr[]) {
+        int cs = 0;
+        int ms = Integer.MIN_VALUE;
+        int count = 0;
+        int flag = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < 0) {
+                count++;
+                if (count == arr.length) {
+                    flag = 1;
+                    break;
+                }
+            }
+
+            cs += arr[i];
+            if (cs < 0) {
+                cs = 0;
+            }
+            ms = Math.max(cs, ms);
+
+        }
+        if (flag == 1) {
+            return -1;
+        } else {
+            return ms;
+        }
+    }
+    //linear search Algorithm
+    
+     public static int linearSearch(int number[] ,int key){
+        for(int i=0;i<number.length;i++){
+            if(number[i]==key){
+                return i;
+            }
+        }
+        return -1;
+     }
+//Max subarray Sum
+public static void max_subarray_sum(int arr[]){
+        int curr=0;
+       int max=Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++){
+             int start =i;
+            for(int j=i;j<arr.length;j++){
+                int end=j;
+                curr=0;
+                for(int k=start;k<=end;k++){    
+                  curr+=arr[k];
+                }
+                System.out.println(curr);
+                if(max<curr){
+                    max=curr;
+                }
+            }
+        }
+        System.out.println(max);
+    }
+    //Pairs of Array
+     public static void pairOfarray(int arr[]){
+         for(int i=0;i<arr.length;i++){
+          int curr=arr[i];
+             for(int j=i+1;j<arr.length;j++){
+                 System.out.print("(" + curr +","+ arr[j]+ ")");
+             }
+             System.out.println();
+         }
+     }
+    //Prefix Array Sum
+    public static void prefix(int arr[]){
+        int currSum=0;
+        int max=Integer.MIN_VALUE;
+        int prefix[]= new int[arr.length];
+        for(int i=1;i<arr.length;i++){
+               prefix[i]=prefix[i-1]+arr[i];
+        }
+        for(int i=0;i<arr.length;i++){
+            for(int j=i;j<arr.length;j++){
+                currSum= i==0 ? prefix[j] : prefix[j] - prefix[i-1];
+                if(max<currSum){
+                    max=currSum;
+                }
+            }
+        }
+        System.out.println(max);
+    }
+    //Reverse of an Array
+     public static void reverse_element(int arr[]){
+        int first=0,end=arr.length-1;
+        while(first<end){
+            int temp=arr[end];
+            arr[end]=arr[first];
+            arr[first]= temp;
+
+            first++;
+            end--;
+        }
+     }
+//Buy and sell Stock
+public static int stocks(int arr[]) {
+        int buy = Integer.MAX_VALUE;
+        int maxpro = 0;
+    
+        for (int i = 0; i < arr.length; i++) {
+           if(buy < arr[i]){
+            int demo=arr[i] -buy;
+            maxpro=Math.max(demo, maxpro);
+           }
+           else{
+            buy=arr[i];
+           }
+        }
+        return maxpro;
+
+    }
+    //Trapped rain water
+     public static int trappedRainwater(int height[]){
+        int n=height.length;
+        //calculate left boundary
+         int leftMax[]=new int[n];
+         leftMax[0]=height[0];
+         for(int i=1;i<n;i++){
+            leftMax[i]=Math.max(height[i],leftMax[i-1]);
+         }
+        //calculate right max boundary
+        int rightMax[]=new int[n];
+        rightMax[n-1]=height[n-1];
+        for(int i=n-2;i>=0;i--){
+            rightMax[i]=Math.max(height[i],rightMax[i+1]);
+        }
+       
+        //loop
+        int trappedWater=0;
+       for(int i=0;i<n;i++){
+          //waterlevel=min(left max ,right max)
+       
+          int water_level=Math.min(leftMax[i],rightMax[i]);
+         //trappedwatter=water level-height
+          trappedWater+=water_level-height[i];
+       }
+      
+        return trappedWater;
+    }

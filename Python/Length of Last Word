@@ -1,0 +1,7 @@
+txt = input()
+x=txt.split()
+empty=0
+if empty:
+    print(0)
+else:
+    print(len(x[-1]))
