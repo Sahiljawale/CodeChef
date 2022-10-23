@@ -1,0 +1,38 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int ans,dp[105][20005];
+void flower(int a,int b,int i,int &n,vector<int>&v1,vector<int>&v2){
+    if(i==n){
+        ans=max(ans,min(a,b));
+        return;
+    }
+    if(dp[i][a]>=b && dp[i][a]!=0){
+        return;
+    }
+    dp[i][a]=b;
+    flower(a+v1[i],b,i+1,n,v1,v2);
+    flower(a,b+v2[i],i+1,n,v1,v2);
+}
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    vector<int>v1(n),v2(n);
+	    for(int i=0;i<n;i++){
+	        cin>>v1[i];
+	    }
+	    for(int i=0;i<n;i++){
+	        cin>>v2[i];
+	    }
+	    memset(dp,0,sizeof(dp));
+	    ans=0;
+	    flower(0,0,0,n,v1,v2);
+	    cout<<ans<<endl;
+	}
+	return 0;
+}
