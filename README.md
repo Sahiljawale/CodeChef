@@ -73,7 +73,7 @@ Check how to contribute to this repository [Contribution](/CNTRIBUTING.MD)
 |29.    | codechef URL |[Total Expenses](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Total%20Expenses.py) |
 |30.    | codechef URL |[Turbo Sort](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Turbo%20Sort.py) |
 |31.    | codechef URL |[World Chess Championship](https://github.com/Sahiljawale/CodeChef/blob/main/Python/World%20Chess%20Championsh.py) |
-|32.    | codechef URL |[XOR Palindrome](https://github.com/Sahiljawale/CodeChef/blob/main/Python/XOR%20Palindrome.py) |
+|32.    | [CodeChef URL](https://www.codechef.com/submit/XOR_PAL) |[XOR Palindrome](https://github.com/Sahiljawale/CodeChef/blob/main/Python/XOR%20Palindrome.py) |
 |33.    | [CodeChef URL](https://www.codechef.com/LRNDSA02/problems/PSHOT) | [Penalty Shootout 2](https://github.com/Sahiljawale/CodeChef/blob/main/Python/Penalty%20Shootout%202.py)
 
 ## Java
